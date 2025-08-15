@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/defaults.xml"/>
+    
+    <!-- Application name from Spring Boot properties -->
+    <springProperty scope="context" name="appName" source="spring.application.name" defaultValue="upload-download-service"/>
+    
+    <!-- Pattern with traceId and spanId for correlation -->
+    <property name="LOG_PATTERN" value="%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} [traceId=%X{traceId:-}, spanId=%X{spanId:-}] - %msg%n"/>
+    
+    <!-- Console appender with trace correlation -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>${LOG_PATTERN}</pattern>
+            <charset>utf8</charset>
+        </encoder>
+    </appender>
+    
+    <!-- File appender with trace correlation -->
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/${appName}.log</file>
+        <encoder>
+            <pattern>${LOG_PATTERN}</pattern>
+            <charset>utf8</charset>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logs/${appName}.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>30</maxHistory>
+            <totalSizeCap>1GB</totalSizeCap>
+        </rollingPolicy>
+    </appender>
+    
+    <!-- Logstash TCP appender -->
+    <appender name="LOGSTASH" class="net.logstash.logback.appender.LogstashTcpSocketAppender">
+        <!-- Use service name as the destination to connect to the local Logstash instance -->
+        <destination>${LOGSTASH_HOST:-localhost}:${LOGSTASH_PORT:-5001}</destination>
+        <encoder class="net.logstash.logback.encoder.LoggingEventCompositeJsonEncoder">
+            <providers>
+                <timestamp>
+                    <fieldName>@timestamp</fieldName>
+                    <timeZone>UTC</timeZone>
+                </timestamp>
+                <pattern>
+                    <pattern>
+                        {
+                            "service": "${appName}",
+                            "level": "%level",
+                            "thread": "%thread",
+                            "logger": "%logger{36}",
+                            "message": "%message",
+                            "traceId": "%mdc{traceId:-}",
+                            "spanId": "%mdc{spanId:-}",
+                            "trace_flags": "%mdc{trace_flags:-}",
+                            "trace_state": "%mdc{trace_state:-}",
+                            "service.namespace": "vaultsearch"
+                        }
+                    </pattern>
+                </pattern>
+                <stackTrace>
+                    <fieldName>stacktrace</fieldName>
+                    <throwableConverter class="net.logstash.logback.stacktrace.ShortenedThrowableConverter">
+                        <maxDepthPerThrowable>30</maxDepthPerThrowable>
+                        <maxLength>2048</maxLength>
+                        <shortenedClassNameLength>20</shortenedClassNameLength>
+                        <exclude>^sun\.reflect\..*\.invoke.*</exclude>
+                        <exclude>^org\.springframework\.boot\..*</exclude>
+                        <exclude>^org\.springframework\.aop\..*</exclude>
+                        <exclude>^org\.springframework\.transaction\..*</exclude>
+                        <rootCauseFirst>true</rootCauseFirst>
+                    </throwableConverter>
+                </stackTrace>
+                <mdc>
+                    <includeMdcKeyName>traceId</includeMdcKeyName>
+                    <includeMdcKeyName>spanId</includeMdcKeyName>
+                    <includeMdcKeyName>trace_flags</includeMdcKeyName>
+                    <includeMdcKeyName>trace_state</includeMdcKeyName>
+                </mdc>
+                <context>
+                    <include>appName</include>
+                </context>
+            </providers>
+        </encoder>
+        <keepAliveDuration>5 minutes</keepAliveDuration>
+        <writeBufferSize>0</writeBufferSize>
+        <reconnectionDelay>1000</reconnectionDelay>
+        <queueSize>1024</queueSize>
+    </appender>
+
+    <!-- Log levels -->
+    <logger name="org.springframework" level="WARN"/>
+    <logger name="org.hibernate" level="WARN"/>
+    <logger name="com.vaultsearch" level="DEBUG"/>
+    
+    <!-- Root logger with all appenders -->
+    <root level="INFO">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="FILE"/>
+        <appender-ref ref="LOGSTASH"/>
+    </root>
+</configuration>

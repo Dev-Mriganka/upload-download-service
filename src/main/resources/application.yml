@@ -1,0 +1,36 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: upload-download-service
+  cloud:
+    aws:
+      region:
+        static: us-east-1
+
+aws:
+  region: us-east-1
+  s3:
+    bucket-name: vaultsearch-uploads
+  dynamodb:
+    table-name: vaultsearch-metadata
+  sqs:
+    queue-name: vaultsearch-queue
+    queue-url: https://sqs.us-east-1.amazonaws.com/159014723710/vaultsearch-queue
+
+logging:
+  file:
+    name: logs/vaultsearch-upload.log
+  level:
+    com.vaultsearch: DEBUG
+
+management:
+  tracing:
+    sampling:
+      probability: 1.0
+    propagation:
+      type: W3C
+  otlp:
+    tracing:
+      endpoint: http://otel-collector:4318/v1/traces

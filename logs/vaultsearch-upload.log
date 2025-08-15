@@ -1,0 +1,278 @@
+2025-08-10 17:53:12 [main] INFO  c.v.u.UploadDownloadServiceApplication - [,] Starting UploadDownloadServiceApplication using Java 17.0.15 with PID 355779 (/home/lone/Desktop/JobPrep/VaultSearch/upload-download-service/build/classes/java/main started by lone in /home/lone/Desktop/JobPrep/VaultSearch/upload-download-service)
+2025-08-10 17:53:12 [main] DEBUG c.v.u.UploadDownloadServiceApplication - [,] Running with Spring Boot v3.5.4, Spring v6.2.9
+2025-08-10 17:53:12 [main] INFO  c.v.u.UploadDownloadServiceApplication - [,] No active profile set, falling back to 1 default profile: "default"
+2025-08-10 17:53:14 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - [,] Tomcat initialized with port 8081 (http)
+2025-08-10 17:53:14 [main] INFO  o.a.catalina.core.StandardService - [,] Starting service [Tomcat]
+2025-08-10 17:53:14 [main] INFO  o.a.catalina.core.StandardEngine - [,] Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-10 17:53:14 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - [,] Initializing Spring embedded WebApplicationContext
+2025-08-10 17:53:14 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - [,] Root WebApplicationContext: initialization completed in 2357 ms
+2025-08-10 17:53:17 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - [,] Exposing 1 endpoint beneath base path '/actuator'
+2025-08-10 17:53:17 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - [,] Tomcat started on port 8081 (http) with context path '/'
+2025-08-10 17:53:17 [main] INFO  c.v.u.UploadDownloadServiceApplication - [,] Started UploadDownloadServiceApplication in 6.196 seconds (process running for 6.877)
+2025-08-10 17:53:32 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - [,] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-10 17:53:32 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - [,] Initializing Servlet 'dispatcherServlet'
+2025-08-10 17:53:32 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - [,] Completed initialization in 3 ms
+2025-08-10 17:56:14 [main] INFO  c.v.u.UploadDownloadServiceApplication - [,] Starting UploadDownloadServiceApplication using Java 17.0.10 with PID 356731 (/home/lone/Desktop/JobPrep/VaultSearch/upload-download-service/build/classes/java/main started by lone in /home/lone/Desktop/JobPrep/VaultSearch/upload-download-service)
+2025-08-10 17:56:14 [main] DEBUG c.v.u.UploadDownloadServiceApplication - [,] Running with Spring Boot v3.5.4, Spring v6.2.9
+2025-08-10 17:56:14 [main] INFO  c.v.u.UploadDownloadServiceApplication - [,] No active profile set, falling back to 1 default profile: "default"
+2025-08-10 17:56:18 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - [,] Tomcat initialized with port 8081 (http)
+2025-08-10 17:56:18 [main] INFO  o.a.catalina.core.StandardService - [,] Starting service [Tomcat]
+2025-08-10 17:56:18 [main] INFO  o.a.catalina.core.StandardEngine - [,] Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-10 17:56:19 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - [,] Initializing Spring embedded WebApplicationContext
+2025-08-10 17:56:19 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - [,] Root WebApplicationContext: initialization completed in 4296 ms
+2025-08-10 17:56:22 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - [,] Exposing 1 endpoint beneath base path '/actuator'
+2025-08-10 17:56:22 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - [,] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-08-10 17:56:24 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - [,] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-08-10 17:56:24 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - [,] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2025-08-10 17:57:40 [main] INFO  c.v.u.UploadDownloadServiceApplication - [,] Starting UploadDownloadServiceApplication using Java 17.0.10 with PID 357069 (/home/lone/Desktop/JobPrep/VaultSearch/upload-download-service/build/classes/java/main started by lone in /home/lone/Desktop/JobPrep/VaultSearch/upload-download-service)
+2025-08-10 17:57:40 [main] DEBUG c.v.u.UploadDownloadServiceApplication - [,] Running with Spring Boot v3.5.4, Spring v6.2.9
+2025-08-10 17:57:40 [main] INFO  c.v.u.UploadDownloadServiceApplication - [,] No active profile set, falling back to 1 default profile: "default"
+2025-08-10 17:57:42 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - [,] Tomcat initialized with port 8081 (http)
+2025-08-10 17:57:42 [main] INFO  o.a.catalina.core.StandardService - [,] Starting service [Tomcat]
+2025-08-10 17:57:42 [main] INFO  o.a.catalina.core.StandardEngine - [,] Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-10 17:57:43 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - [,] Initializing Spring embedded WebApplicationContext
+2025-08-10 17:57:43 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - [,] Root WebApplicationContext: initialization completed in 2391 ms
+2025-08-10 17:57:45 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - [,] Exposing 1 endpoint beneath base path '/actuator'
+2025-08-10 17:57:45 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - [,] Tomcat started on port 8081 (http) with context path '/'
+2025-08-10 17:57:45 [main] INFO  c.v.u.UploadDownloadServiceApplication - [,] Started UploadDownloadServiceApplication in 5.718 seconds (process running for 7.043)
+2025-08-10 17:57:45 [RMI TCP Connection(1)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - [,] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-10 17:57:45 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - [,] Initializing Servlet 'dispatcherServlet'
+2025-08-10 17:57:45 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - [,] Completed initialization in 13 ms
+2025-08-10 18:13:00 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - [,] Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-10 18:13:00 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - [,] Graceful shutdown complete
+2025-08-10 19:43:40 [main] INFO  c.v.u.UploadDownloadServiceApplication - [,] Starting UploadDownloadServiceApplication using Java 17.0.10 with PID 359731 (/home/lone/Desktop/JobPrep/VaultSearch/upload-download-service/build/classes/java/main started by lone in /home/lone/Desktop/JobPrep/VaultSearch/upload-download-service)
+2025-08-10 19:43:40 [main] DEBUG c.v.u.UploadDownloadServiceApplication - [,] Running with Spring Boot v3.5.4, Spring v6.2.9
+2025-08-10 19:43:40 [main] INFO  c.v.u.UploadDownloadServiceApplication - [,] No active profile set, falling back to 1 default profile: "default"
+2025-08-10 19:43:42 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - [,] Tomcat initialized with port 8081 (http)
+2025-08-10 19:43:42 [main] INFO  o.a.catalina.core.StandardService - [,] Starting service [Tomcat]
+2025-08-10 19:43:42 [main] INFO  o.a.catalina.core.StandardEngine - [,] Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-10 19:43:42 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - [,] Initializing Spring embedded WebApplicationContext
+2025-08-10 19:43:42 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - [,] Root WebApplicationContext: initialization completed in 2078 ms
+2025-08-10 19:43:45 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - [,] Exposing 1 endpoint beneath base path '/actuator'
+2025-08-10 19:43:45 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - [,] Tomcat started on port 8081 (http) with context path '/'
+2025-08-10 19:43:45 [main] INFO  c.v.u.UploadDownloadServiceApplication - [,] Started UploadDownloadServiceApplication in 5.547 seconds (process running for 6.48)
+2025-08-10 19:43:46 [RMI TCP Connection(1)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - [,] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-10 19:43:46 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - [,] Initializing Servlet 'dispatcherServlet'
+2025-08-10 19:43:46 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - [,] Completed initialization in 3 ms
+2025-08-10 19:52:18 [http-nio-8081-exec-3] INFO  c.v.u.c.FileUploadController - [3fbe05f1991fb70617aaff8555a36ae8,ca9ff0f67500a1c0] [UPLOAD-CONTROLLER][3fbe05f1-ca9ff0f6][CONTROLLER] Received file upload request: testfile.txt
+2025-08-10 19:52:18 [http-nio-8081-exec-3] INFO  c.v.u.s.impl.FileStorageServiceImpl - [3fbe05f1991fb70617aaff8555a36ae8,ca9ff0f67500a1c0] [UPLOAD-UPLOAD][3fbe05f1-ca9ff0f6][UPLOAD] Starting file upload: testfile.txt
+2025-08-10 19:52:18 [http-nio-8081-exec-3] DEBUG c.v.u.s.impl.FileStorageServiceImpl - [3fbe05f1991fb70617aaff8555a36ae8,ca9ff0f67500a1c0] [UPLOAD-UPLOAD][3fbe05f1-ca9ff0f6][UPLOAD] Generated file ID: 9d63c589-264c-44c1-9950-e1570f28c54d, s3Key: 9d63c589-264c-44c1-9950-e1570f28c54d-testfile.txt
+2025-08-10 19:52:21 [http-nio-8081-exec-3] INFO  c.v.u.s.impl.FileStorageServiceImpl - [3fbe05f1991fb70617aaff8555a36ae8,ca9ff0f67500a1c0] [UPLOAD-UPLOAD][3fbe05f1-ca9ff0f6][UPLOAD] File uploaded to S3 successfully: 9d63c589-264c-44c1-9950-e1570f28c54d-testfile.txt
+2025-08-10 19:52:22 [http-nio-8081-exec-3] INFO  c.v.u.s.impl.FileStorageServiceImpl - [3fbe05f1991fb70617aaff8555a36ae8,ca9ff0f67500a1c0] [UPLOAD-UPLOAD][3fbe05f1-ca9ff0f6][UPLOAD] Metadata saved to DynamoDB: 9d63c589-264c-44c1-9950-e1570f28c54d
+2025-08-10 19:52:25 [http-nio-8081-exec-3] INFO  c.v.u.s.impl.FileStorageServiceImpl - [3fbe05f1991fb70617aaff8555a36ae8,ca9ff0f67500a1c0] [UPLOAD-UPLOAD][3fbe05f1-ca9ff0f6][UPLOAD] Message sent to SQS queue: vaultsearch-queue
+2025-08-10 19:52:25 [http-nio-8081-exec-3] INFO  c.v.u.c.FileUploadController - [,] [UPLOAD-CONTROLLER][3fbe05f1-ca9ff0f6][CONTROLLER] File upload completed successfully: 9d63c589-264c-44c1-9950-e1570f28c54d
+2025-08-10 20:06:01 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - [,] Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-10 20:06:01 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - [,] Graceful shutdown complete
+2025-08-10 20:06:25 [main] INFO  c.v.u.UploadDownloadServiceApplication - [,] Starting UploadDownloadServiceApplication using Java 17.0.10 with PID 361666 (/home/lone/Desktop/JobPrep/VaultSearch/upload-download-service/build/classes/java/main started by lone in /home/lone/Desktop/JobPrep/VaultSearch/upload-download-service)
+2025-08-10 20:06:25 [main] DEBUG c.v.u.UploadDownloadServiceApplication - [,] Running with Spring Boot v3.5.4, Spring v6.2.9
+2025-08-10 20:06:25 [main] INFO  c.v.u.UploadDownloadServiceApplication - [,] No active profile set, falling back to 1 default profile: "default"
+2025-08-10 20:06:32 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - [,] Tomcat initialized with port 8081 (http)
+2025-08-10 20:06:32 [main] INFO  o.a.catalina.core.StandardService - [,] Starting service [Tomcat]
+2025-08-10 20:06:32 [main] INFO  o.a.catalina.core.StandardEngine - [,] Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-10 20:06:32 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - [,] Initializing Spring embedded WebApplicationContext
+2025-08-10 20:06:32 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - [,] Root WebApplicationContext: initialization completed in 6391 ms
+2025-08-10 20:06:40 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - [,] Exposing 1 endpoint beneath base path '/actuator'
+2025-08-10 20:06:40 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - [,] Tomcat started on port 8081 (http) with context path '/'
+2025-08-10 20:06:40 [main] INFO  c.v.u.UploadDownloadServiceApplication - [,] Started UploadDownloadServiceApplication in 17.415 seconds (process running for 19.45)
+2025-08-10 20:06:41 [RMI TCP Connection(1)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - [,] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-10 20:06:41 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - [,] Initializing Servlet 'dispatcherServlet'
+2025-08-10 20:06:41 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - [,] Completed initialization in 9 ms
+2025-08-10 20:06:45 [http-nio-8081-exec-1] INFO  c.v.u.c.FileUploadController - [cb26cf5b67fbca601fd71d3ca1950b6d,e3dd0191391ef6ed] [UPLOAD-CONTROLLER][cb26cf5b-e3dd0191] Received file upload request: testfile.txt
+2025-08-10 20:06:45 [http-nio-8081-exec-1] INFO  c.v.u.s.impl.FileStorageServiceImpl - [cb26cf5b67fbca601fd71d3ca1950b6d,e3dd0191391ef6ed] [UPLOAD][cb26cf5b-e3dd0191] Starting file upload: testfile.txt
+2025-08-10 20:06:45 [http-nio-8081-exec-1] DEBUG c.v.u.s.impl.FileStorageServiceImpl - [cb26cf5b67fbca601fd71d3ca1950b6d,e3dd0191391ef6ed] [UPLOAD][cb26cf5b-e3dd0191] Generated file ID: cbc1bb68-dcf4-459c-88f4-7b0511454f8f, s3Key: cbc1bb68-dcf4-459c-88f4-7b0511454f8f-testfile.txt
+2025-08-10 20:06:48 [http-nio-8081-exec-1] INFO  c.v.u.s.impl.FileStorageServiceImpl - [cb26cf5b67fbca601fd71d3ca1950b6d,e3dd0191391ef6ed] [UPLOAD][cb26cf5b-e3dd0191] File uploaded to S3 successfully: cbc1bb68-dcf4-459c-88f4-7b0511454f8f-testfile.txt
+2025-08-10 20:06:50 [http-nio-8081-exec-1] INFO  c.v.u.s.impl.FileStorageServiceImpl - [cb26cf5b67fbca601fd71d3ca1950b6d,e3dd0191391ef6ed] [UPLOAD][cb26cf5b-e3dd0191] Metadata saved to DynamoDB: cbc1bb68-dcf4-459c-88f4-7b0511454f8f
+2025-08-10 20:06:53 [http-nio-8081-exec-1] INFO  c.v.u.s.impl.FileStorageServiceImpl - [cb26cf5b67fbca601fd71d3ca1950b6d,e3dd0191391ef6ed] [UPLOAD][cb26cf5b-e3dd0191] Message sent to SQS queue: vaultsearch-queue
+2025-08-10 20:06:53 [http-nio-8081-exec-1] INFO  c.v.u.c.FileUploadController - [,] [UPLOAD-CONTROLLER][cb26cf5b-e3dd0191] File upload completed successfully: cbc1bb68-dcf4-459c-88f4-7b0511454f8f
+2025-08-10 20:08:06 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - [,] Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-10 20:08:06 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - [,] Graceful shutdown complete
+2025-08-10 20:13:30 [main] INFO  c.v.u.UploadDownloadServiceApplication - [,] Starting UploadDownloadServiceApplication using Java 17.0.15 with PID 362609 (/home/lone/Desktop/JobPrep/VaultSearch/upload-download-service/build/classes/java/main started by lone in /home/lone/Desktop/JobPrep/VaultSearch/upload-download-service)
+2025-08-10 20:13:30 [main] DEBUG c.v.u.UploadDownloadServiceApplication - [,] Running with Spring Boot v3.5.4, Spring v6.2.9
+2025-08-10 20:13:30 [main] INFO  c.v.u.UploadDownloadServiceApplication - [,] No active profile set, falling back to 1 default profile: "default"
+2025-08-10 20:13:33 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - [,] Tomcat initialized with port 8081 (http)
+2025-08-10 20:13:33 [main] INFO  o.a.catalina.core.StandardService - [,] Starting service [Tomcat]
+2025-08-10 20:13:33 [main] INFO  o.a.catalina.core.StandardEngine - [,] Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-10 20:13:33 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - [,] Initializing Spring embedded WebApplicationContext
+2025-08-10 20:13:33 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - [,] Root WebApplicationContext: initialization completed in 3402 ms
+2025-08-10 20:13:37 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - [,] Exposing 1 endpoint beneath base path '/actuator'
+2025-08-10 20:13:37 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - [,] Tomcat started on port 8081 (http) with context path '/'
+2025-08-10 20:13:37 [main] INFO  c.v.u.UploadDownloadServiceApplication - [,] Started UploadDownloadServiceApplication in 8.787 seconds (process running for 9.657)
+2025-08-10 20:14:00 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - [,] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-10 20:14:00 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - [,] Initializing Servlet 'dispatcherServlet'
+2025-08-10 20:14:00 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - [,] Completed initialization in 3 ms
+2025-08-10 20:14:34 [http-nio-8081-exec-2] INFO  c.v.u.aspect.ControllerLoggingAspect - [6a292feab4d31040d343cd14fb904b68,dac1ccb53fa44124] [traceId=6a292feab4d31040d343cd14fb904b68 spanId=dac1ccb53fa44124] [FileUploadController.uploadFile] Starting file upload: testfile.txt
+2025-08-10 20:14:34 [http-nio-8081-exec-2] INFO  c.v.u.c.FileUploadController - [6a292feab4d31040d343cd14fb904b68,dac1ccb53fa44124] [UPLOAD-CONTROLLER][6a292fea-dac1ccb5] Received file upload request: testfile.txt
+2025-08-10 20:14:34 [http-nio-8081-exec-2] INFO  c.v.u.s.impl.FileStorageServiceImpl - [6a292feab4d31040d343cd14fb904b68,dac1ccb53fa44124] [UPLOAD][6a292fea-dac1ccb5] Starting file upload: testfile.txt
+2025-08-10 20:14:34 [http-nio-8081-exec-2] DEBUG c.v.u.s.impl.FileStorageServiceImpl - [6a292feab4d31040d343cd14fb904b68,dac1ccb53fa44124] [UPLOAD][6a292fea-dac1ccb5] Generated file ID: 996a62f5-958d-4e5d-8e52-91cb2c34aa9e, s3Key: 996a62f5-958d-4e5d-8e52-91cb2c34aa9e-testfile.txt
+2025-08-10 20:14:39 [http-nio-8081-exec-2] INFO  c.v.u.s.impl.FileStorageServiceImpl - [6a292feab4d31040d343cd14fb904b68,dac1ccb53fa44124] [UPLOAD][6a292fea-dac1ccb5] File uploaded to S3 successfully: 996a62f5-958d-4e5d-8e52-91cb2c34aa9e-testfile.txt
+2025-08-10 20:14:41 [http-nio-8081-exec-2] INFO  c.v.u.s.impl.FileStorageServiceImpl - [6a292feab4d31040d343cd14fb904b68,dac1ccb53fa44124] [UPLOAD][6a292fea-dac1ccb5] Metadata saved to DynamoDB: 996a62f5-958d-4e5d-8e52-91cb2c34aa9e
+2025-08-10 20:14:43 [http-nio-8081-exec-2] INFO  c.v.u.s.impl.FileStorageServiceImpl - [6a292feab4d31040d343cd14fb904b68,dac1ccb53fa44124] [UPLOAD][6a292fea-dac1ccb5] Message sent to SQS queue: vaultsearch-queue
+2025-08-10 20:14:43 [http-nio-8081-exec-2] INFO  c.v.u.c.FileUploadController - [,] [UPLOAD-CONTROLLER][6a292fea-dac1ccb5] File upload completed successfully: 996a62f5-958d-4e5d-8e52-91cb2c34aa9e
+2025-08-10 20:14:43 [http-nio-8081-exec-2] INFO  c.v.u.aspect.ControllerLoggingAspect - [,] [traceId=- spanId=-] [FileUploadController.uploadFile] Completed file upload: contentId=null
+2025-08-10 20:15:00 [main] INFO  c.v.u.UploadDownloadServiceApplication - [,] Starting UploadDownloadServiceApplication using Java 17.0.10 with PID 362797 (/home/lone/Desktop/JobPrep/VaultSearch/upload-download-service/build/classes/java/main started by lone in /home/lone/Desktop/JobPrep/VaultSearch/upload-download-service)
+2025-08-10 20:15:00 [main] DEBUG c.v.u.UploadDownloadServiceApplication - [,] Running with Spring Boot v3.5.4, Spring v6.2.9
+2025-08-10 20:15:00 [main] INFO  c.v.u.UploadDownloadServiceApplication - [,] No active profile set, falling back to 1 default profile: "default"
+2025-08-10 20:15:02 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - [,] Tomcat initialized with port 8081 (http)
+2025-08-10 20:15:03 [main] INFO  o.a.catalina.core.StandardService - [,] Starting service [Tomcat]
+2025-08-10 20:15:03 [main] INFO  o.a.catalina.core.StandardEngine - [,] Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-10 20:15:03 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - [,] Initializing Spring embedded WebApplicationContext
+2025-08-10 20:15:03 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - [,] Root WebApplicationContext: initialization completed in 2569 ms
+2025-08-10 20:15:06 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - [,] Exposing 1 endpoint beneath base path '/actuator'
+2025-08-10 20:15:06 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - [,] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-08-10 20:15:08 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - [,] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-08-10 20:15:08 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - [,] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2025-08-10 20:16:12 [main] INFO  c.v.u.UploadDownloadServiceApplication - [,] Starting UploadDownloadServiceApplication using Java 17.0.10 with PID 363201 (/home/lone/Desktop/JobPrep/VaultSearch/upload-download-service/build/classes/java/main started by lone in /home/lone/Desktop/JobPrep/VaultSearch/upload-download-service)
+2025-08-10 20:16:12 [main] DEBUG c.v.u.UploadDownloadServiceApplication - [,] Running with Spring Boot v3.5.4, Spring v6.2.9
+2025-08-10 20:16:12 [main] INFO  c.v.u.UploadDownloadServiceApplication - [,] No active profile set, falling back to 1 default profile: "default"
+2025-08-10 20:16:14 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - [,] Tomcat initialized with port 8081 (http)
+2025-08-10 20:16:14 [main] INFO  o.a.catalina.core.StandardService - [,] Starting service [Tomcat]
+2025-08-10 20:16:14 [main] INFO  o.a.catalina.core.StandardEngine - [,] Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-10 20:16:14 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - [,] Initializing Spring embedded WebApplicationContext
+2025-08-10 20:16:14 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - [,] Root WebApplicationContext: initialization completed in 2177 ms
+2025-08-10 20:16:17 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - [,] Exposing 1 endpoint beneath base path '/actuator'
+2025-08-10 20:16:17 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - [,] Tomcat started on port 8081 (http) with context path '/'
+2025-08-10 20:16:17 [main] INFO  c.v.u.UploadDownloadServiceApplication - [,] Started UploadDownloadServiceApplication in 5.664 seconds (process running for 7.648)
+2025-08-10 20:16:17 [RMI TCP Connection(1)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - [,] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-10 20:16:17 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - [,] Initializing Servlet 'dispatcherServlet'
+2025-08-10 20:16:17 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - [,] Completed initialization in 4 ms
+2025-08-10 20:16:23 [http-nio-8081-exec-1] INFO  c.v.u.aspect.ControllerLoggingAspect - [4d4dfd1713b5a9c708d6a44c1927e528,a7622ad379db6bae] [traceId=4d4dfd1713b5a9c708d6a44c1927e528 spanId=a7622ad379db6bae] [FileUploadController.uploadFile] Starting file upload: testfile.txt
+2025-08-10 20:16:23 [http-nio-8081-exec-1] INFO  c.v.u.c.FileUploadController - [4d4dfd1713b5a9c708d6a44c1927e528,a7622ad379db6bae] [UPLOAD-CONTROLLER][4d4dfd17-a7622ad3] Received file upload request: testfile.txt
+2025-08-10 20:16:23 [http-nio-8081-exec-1] INFO  c.v.u.s.impl.FileStorageServiceImpl - [4d4dfd1713b5a9c708d6a44c1927e528,a7622ad379db6bae] [UPLOAD][4d4dfd17-a7622ad3] Starting file upload: testfile.txt
+2025-08-10 20:16:23 [http-nio-8081-exec-1] DEBUG c.v.u.s.impl.FileStorageServiceImpl - [4d4dfd1713b5a9c708d6a44c1927e528,a7622ad379db6bae] [UPLOAD][4d4dfd17-a7622ad3] Generated file ID: ef5b2b77-d6a0-4682-aea2-f59dcbfb2d30, s3Key: ef5b2b77-d6a0-4682-aea2-f59dcbfb2d30-testfile.txt
+2025-08-10 20:16:28 [http-nio-8081-exec-1] INFO  c.v.u.s.impl.FileStorageServiceImpl - [4d4dfd1713b5a9c708d6a44c1927e528,a7622ad379db6bae] [UPLOAD][4d4dfd17-a7622ad3] File uploaded to S3 successfully: ef5b2b77-d6a0-4682-aea2-f59dcbfb2d30-testfile.txt
+2025-08-10 20:16:30 [http-nio-8081-exec-1] INFO  c.v.u.s.impl.FileStorageServiceImpl - [4d4dfd1713b5a9c708d6a44c1927e528,a7622ad379db6bae] [UPLOAD][4d4dfd17-a7622ad3] Metadata saved to DynamoDB: ef5b2b77-d6a0-4682-aea2-f59dcbfb2d30
+2025-08-10 20:16:33 [http-nio-8081-exec-1] INFO  c.v.u.s.impl.FileStorageServiceImpl - [4d4dfd1713b5a9c708d6a44c1927e528,a7622ad379db6bae] [UPLOAD][4d4dfd17-a7622ad3] Message sent to SQS queue: vaultsearch-queue
+2025-08-10 20:16:33 [http-nio-8081-exec-1] INFO  c.v.u.c.FileUploadController - [,] [UPLOAD-CONTROLLER][4d4dfd17-a7622ad3] File upload completed successfully: ef5b2b77-d6a0-4682-aea2-f59dcbfb2d30
+2025-08-10 20:16:33 [http-nio-8081-exec-1] INFO  c.v.u.aspect.ControllerLoggingAspect - [,] [traceId=- spanId=-] [FileUploadController.uploadFile] Completed file upload: contentId=null
+2025-08-10 20:24:59 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - [,] Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-10 20:24:59 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - [,] Graceful shutdown complete
+2025-08-10 20:54:25 [main] INFO  com.vaultsearch.uploaddownloadservice.UploadDownloadServiceApplication - [traceId= spanId=] Starting UploadDownloadServiceApplication using Java 17.0.10 with PID 365539 (/home/lone/Desktop/JobPrep/VaultSearch/upload-download-service/build/classes/java/main started by lone in /home/lone/Desktop/JobPrep/VaultSearch/upload-download-service)
+2025-08-10 20:54:25 [main] DEBUG com.vaultsearch.uploaddownloadservice.UploadDownloadServiceApplication - [traceId= spanId=] Running with Spring Boot v3.5.4, Spring v6.2.9
+2025-08-10 20:54:25 [main] INFO  com.vaultsearch.uploaddownloadservice.UploadDownloadServiceApplication - [traceId= spanId=] No active profile set, falling back to 1 default profile: "default"
+2025-08-10 20:54:35 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - [traceId= spanId=] Tomcat initialized with port 8081 (http)
+2025-08-10 20:54:35 [main] INFO  org.apache.catalina.core.StandardService - [traceId= spanId=] Starting service [Tomcat]
+2025-08-10 20:54:35 [main] INFO  org.apache.catalina.core.StandardEngine - [traceId= spanId=] Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-10 20:54:36 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - [traceId= spanId=] Initializing Spring embedded WebApplicationContext
+2025-08-10 20:54:36 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - [traceId= spanId=] Root WebApplicationContext: initialization completed in 10059 ms
+2025-08-10 20:54:42 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - [traceId= spanId=] Exposing 1 endpoint beneath base path '/actuator'
+2025-08-10 20:54:42 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - [traceId= spanId=] Tomcat started on port 8081 (http) with context path '/'
+2025-08-10 20:54:42 [main] INFO  com.vaultsearch.uploaddownloadservice.UploadDownloadServiceApplication - [traceId= spanId=] Started UploadDownloadServiceApplication in 20.232 seconds (process running for 23.164)
+2025-08-10 20:54:43 [RMI TCP Connection(2)-127.0.0.1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - [traceId= spanId=] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-10 20:54:43 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - [traceId= spanId=] Initializing Servlet 'dispatcherServlet'
+2025-08-10 20:54:43 [RMI TCP Connection(2)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - [traceId= spanId=] Completed initialization in 9 ms
+2025-08-10 20:55:08 [http-nio-8081-exec-1] INFO  com.vaultsearch.uploaddownloadservice.aspect.ControllerLoggingAspect - [traceId=cb1532ecd718ef70468d995a387a0bef spanId=a5f49b96df71ffa0] controller=true api=upload-file phase=before action=uploadFile file="testfile.txt"
+2025-08-10 20:55:08 [http-nio-8081-exec-1] INFO  com.vaultsearch.uploaddownloadservice.controller.FileUploadController - [traceId=cb1532ecd718ef70468d995a387a0bef spanId=a5f49b96df71ffa0] Received file upload request: testfile.txt
+2025-08-10 20:55:08 [http-nio-8081-exec-1] INFO  com.vaultsearch.uploaddownloadservice.service.impl.FileStorageServiceImpl - [traceId=cb1532ecd718ef70468d995a387a0bef spanId=ac388e37b20c55db] Uploading file to S3: 2374aa22-c45c-4c08-9560-b659d21e32f8-testfile.txt
+2025-08-10 20:55:15 [http-nio-8081-exec-1] INFO  com.vaultsearch.uploaddownloadservice.service.impl.FileStorageServiceImpl - [traceId=cb1532ecd718ef70468d995a387a0bef spanId=ac388e37b20c55db] Saving metadata to DynamoDB: 2374aa22-c45c-4c08-9560-b659d21e32f8
+2025-08-10 20:55:18 [http-nio-8081-exec-1] INFO  com.vaultsearch.uploaddownloadservice.service.impl.FileStorageServiceImpl - [traceId=cb1532ecd718ef70468d995a387a0bef spanId=ac388e37b20c55db] Sending message to SQS queue: vaultsearch-queue
+2025-08-10 20:55:23 [http-nio-8081-exec-1] INFO  com.vaultsearch.uploaddownloadservice.controller.FileUploadController - [traceId=cb1532ecd718ef70468d995a387a0bef spanId=a5f49b96df71ffa0] File upload completed successfully: 2374aa22-c45c-4c08-9560-b659d21e32f8
+2025-08-10 20:55:23 [http-nio-8081-exec-1] INFO  com.vaultsearch.uploaddownloadservice.aspect.ControllerLoggingAspect - [traceId=cb1532ecd718ef70468d995a387a0bef spanId=a5f49b96df71ffa0] controller=true api=upload-file phase=after action=uploadFile status=success contentId=null
+2025-08-10 21:02:18 [SpringApplicationShutdownHook] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - [traceId= spanId=] Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-10 21:02:18 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - [traceId= spanId=] Graceful shutdown complete
+2025-08-10 21:06:52 [main] INFO  com.vaultsearch.uploaddownloadservice.UploadDownloadServiceApplication - [traceId= spanId=] Starting UploadDownloadServiceApplication using Java 17.0.10 with PID 366452 (/home/lone/Desktop/JobPrep/VaultSearch/upload-download-service/build/classes/java/main started by lone in /home/lone/Desktop/JobPrep/VaultSearch/upload-download-service)
+2025-08-10 21:06:52 [main] DEBUG com.vaultsearch.uploaddownloadservice.UploadDownloadServiceApplication - [traceId= spanId=] Running with Spring Boot v3.5.4, Spring v6.2.9
+2025-08-10 21:06:52 [main] INFO  com.vaultsearch.uploaddownloadservice.UploadDownloadServiceApplication - [traceId= spanId=] No active profile set, falling back to 1 default profile: "default"
+2025-08-10 21:06:56 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - [traceId= spanId=] Tomcat initialized with port 8081 (http)
+2025-08-10 21:06:56 [main] INFO  org.apache.catalina.core.StandardService - [traceId= spanId=] Starting service [Tomcat]
+2025-08-10 21:06:56 [main] INFO  org.apache.catalina.core.StandardEngine - [traceId= spanId=] Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-10 21:06:56 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - [traceId= spanId=] Initializing Spring embedded WebApplicationContext
+2025-08-10 21:06:56 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - [traceId= spanId=] Root WebApplicationContext: initialization completed in 3851 ms
+2025-08-10 21:07:00 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - [traceId= spanId=] Exposing 1 endpoint beneath base path '/actuator'
+2025-08-10 21:07:00 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - [traceId= spanId=] Tomcat started on port 8081 (http) with context path '/'
+2025-08-10 21:07:00 [main] INFO  com.vaultsearch.uploaddownloadservice.UploadDownloadServiceApplication - [traceId= spanId=] Started UploadDownloadServiceApplication in 9.297 seconds (process running for 11.173)
+2025-08-10 21:07:01 [RMI TCP Connection(1)-127.0.0.1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - [traceId= spanId=] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-10 21:07:01 [RMI TCP Connection(1)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - [traceId= spanId=] Initializing Servlet 'dispatcherServlet'
+2025-08-10 21:07:01 [RMI TCP Connection(1)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - [traceId= spanId=] Completed initialization in 4 ms
+2025-08-10 21:07:19 [http-nio-8081-exec-1] INFO  com.vaultsearch.uploaddownloadservice.aspect.ControllerLoggingAspect - [traceId=766c75f0efab902f0f6e6205f710f53b spanId=45c7f1a0c9c608bc] @Before: FileUploadController.uploadFile args: [Ljava.lang.Object;@753b1a3a
+2025-08-10 21:07:19 [http-nio-8081-exec-1] INFO  com.vaultsearch.uploaddownloadservice.controller.FileUploadController - [traceId=766c75f0efab902f0f6e6205f710f53b spanId=45c7f1a0c9c608bc] Received file upload request: testfile.txt
+2025-08-10 21:07:19 [http-nio-8081-exec-1] INFO  com.vaultsearch.uploaddownloadservice.service.impl.FileStorageServiceImpl - [traceId=766c75f0efab902f0f6e6205f710f53b spanId=a03504e806d01abd] Uploading file to S3: 32e17da5-4563-4455-b61c-1aa50fd546c5-testfile.txt
+2025-08-10 21:07:23 [http-nio-8081-exec-1] INFO  com.vaultsearch.uploaddownloadservice.service.impl.FileStorageServiceImpl - [traceId=766c75f0efab902f0f6e6205f710f53b spanId=a03504e806d01abd] Saving metadata to DynamoDB: 32e17da5-4563-4455-b61c-1aa50fd546c5
+2025-08-10 21:07:25 [http-nio-8081-exec-1] INFO  com.vaultsearch.uploaddownloadservice.service.impl.FileStorageServiceImpl - [traceId=766c75f0efab902f0f6e6205f710f53b spanId=a03504e806d01abd] Sending message to SQS queue: vaultsearch-queue
+2025-08-10 21:07:28 [http-nio-8081-exec-1] INFO  com.vaultsearch.uploaddownloadservice.controller.FileUploadController - [traceId=766c75f0efab902f0f6e6205f710f53b spanId=45c7f1a0c9c608bc] File upload completed successfully: 32e17da5-4563-4455-b61c-1aa50fd546c5
+2025-08-10 21:07:28 [http-nio-8081-exec-1] INFO  com.vaultsearch.uploaddownloadservice.aspect.ControllerLoggingAspect - [traceId=766c75f0efab902f0f6e6205f710f53b spanId=45c7f1a0c9c608bc] @AfterReturning normally: FileUploadController.uploadFile With response: {"headers":{},"body":{"contentId":"32e17da5-4563-4455-b61c-1aa50fd546c5","s3Key":"32e17da5-4563-4455-b61c-1aa50fd546c5-testfile.txt","fileName":"testfile.txt","contentType":"text/plain","size":36,"uploadedAt":"2025-08-10T15:37:23.578154709Z"},"statusCode":"OK","statusCodeValue":200}
+2025-08-10 21:11:20 [SpringApplicationShutdownHook] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - [traceId= spanId=] Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-10 21:11:20 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - [traceId= spanId=] Graceful shutdown complete
+2025-08-10 21:11:31 [main] ERROR org.springframework.boot.SpringApplication - [%PARSER_ERROR[notEmpty]] Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@47da3952 - There is no conversion supplier registered for conversion word [notEmpty]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@47da3952 - [notEmpty] is not a valid conversion word
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@32cb636e - There is no conversion supplier registered for conversion word [notEmpty]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@32cb636e - [notEmpty] is not a valid conversion word
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:347)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:298)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:156)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:138)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:353)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.vaultsearch.uploaddownloadservice.UploadDownloadServiceApplication.main(UploadDownloadServiceApplication.java:10)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@47da3952 - There is no conversion supplier registered for conversion word [notEmpty]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@47da3952 - [notEmpty] is not a valid conversion word
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@32cb636e - There is no conversion supplier registered for conversion word [notEmpty]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@32cb636e - [notEmpty] is not a valid conversion word
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reportConfigurationErrorsIfNecessary(LogbackLoggingSystem.java:289)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:267)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:81)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:61)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:195)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:332)
+	... 19 common frames omitted
+2025-08-10 21:17:13 [main] INFO  com.vaultsearch.uploaddownloadservice.UploadDownloadServiceApplication - Starting UploadDownloadServiceApplication using Java 17.0.10 with PID 368257 (/home/lone/Desktop/JobPrep/VaultSearch/upload-download-service/build/classes/java/main started by lone in /home/lone/Desktop/JobPrep/VaultSearch/upload-download-service)
+2025-08-10 21:17:13 [main] DEBUG com.vaultsearch.uploaddownloadservice.UploadDownloadServiceApplication - Running with Spring Boot v3.5.4, Spring v6.2.9
+2025-08-10 21:17:13 [main] INFO  com.vaultsearch.uploaddownloadservice.UploadDownloadServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-10 21:17:16 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-08-10 21:17:16 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-08-10 21:17:16 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-10 21:17:16 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-08-10 21:17:16 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3736 ms
+2025-08-10 21:17:21 [main] INFO  org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2025-08-10 21:17:21 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-08-10 21:17:21 [main] INFO  com.vaultsearch.uploaddownloadservice.UploadDownloadServiceApplication - Started UploadDownloadServiceApplication in 9.409 seconds (process running for 11.091)
+2025-08-10 21:17:22 [RMI TCP Connection(3)-127.0.0.1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-10 21:17:22 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-08-10 21:17:22 [RMI TCP Connection(3)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2025-08-10 21:17:36 [SpringApplicationShutdownHook] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-10 21:17:36 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
