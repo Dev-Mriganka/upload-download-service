@@ -34,10 +34,3 @@ management:
   otlp:
     tracing:
       endpoint: http://localhost:4318/v1/traces   # OTEL Collector HTTP endpoint
-      protocol: http/protobuf
-
-otel:
-  resource:
-    attributes: service.name=upload-download-service
-    service:
-      name: ${spring.application.name}
